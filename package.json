@@ -1,0 +1,12 @@
+{
+  "name": "relay",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "pnpm --filter @relay/web dev",
+    "build": "pnpm --filter @relay/web build",
+    "typecheck": "pnpm --filter @relay/web typecheck",
+    "test": "pnpm --filter @relay/web test",
+    "test:e2e": "pnpm --filter @relay/web test:e2e"
+  }
+}
